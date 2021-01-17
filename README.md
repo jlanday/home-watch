@@ -26,6 +26,10 @@ Raspberry Pi 4
 Nvidia Jetson Nano (2GB)
 MacBook Pro 2014
 ```
+To send 10K free a month emails:
+```
+https://console.cloud.google.com/marketplace/product/sendgrid-app/sendgrid-email
+```
 
 GLHF
 
