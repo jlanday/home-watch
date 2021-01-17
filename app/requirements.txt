@@ -1,0 +1,4 @@
+google-cloud-storage
+pillow
+sendgrid
+tensorflow-hub

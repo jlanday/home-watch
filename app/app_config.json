@@ -1,0 +1,17 @@
+{
+  "bucket_name":"justin-source-data",
+  "model_url":"https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2",
+  "seconds_between_alerts":"80",
+  "camera_name":"out-front",
+  "project_name":"home-watch",
+  "gcp_creds_path":"gcp_creds.json",
+  "sg_creds_path":"sg_api_key.json",
+  "min_score_thresh":"0.66",
+  "rotate_angle":"180",
+  "adjust_color":"True",
+  "sg_from_email":"justin@landay.rocks",
+  "sg_to_email":"justinlanday@gmail.com",
+  "resolution":"800,800",
+  "ignore_list":"car=1.0,suitcase=1.0",
+  "cache_size":"25"
+}
