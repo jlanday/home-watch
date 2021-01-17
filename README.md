@@ -10,7 +10,13 @@ Before going ahead please make sure you have Docker Buildx installed (https://do
 To build 
 
 ```
-docker buildx build --platform linux/arm64/v8 
+docker buildx build --platform linux/arm64/v8 -t home-watch
+```
+
+To run 
+
+```
+docker run -d --privileged --restart=always --device=/dev/video0:/dev/video0 home-watch python3 app.py
 ```
 
 This docker image has successfully ran on the following hardware:
